@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="lista_vendedor">
+    <item>Constitucional</item>
+    <item>Cambaceo</item>
+    </string-array>
+
+    <string-array name="lista_acciones">
+        <item>Consultar ingreso mensual</item>
+        <item>Consultar Prestamo</item>
+    </string-array>
+</resources>

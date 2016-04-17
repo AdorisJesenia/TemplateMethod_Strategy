@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TemplateMethod</string>
+    <string name="nombre">nombre</string>
+    <string name="Calcular">calcular</string>
+    <string name="salarioBase">Salario Base</string>
+    <string name="constitucional">constitucional</string>
+    <string name="calcular">Calcular</string>
+    <string name="verificar">Verificar</string>
+    <string name="calcular1">Calcular</string>
+    <string name="continuar">Continuar</string>
+    <string name="consultar">Consultar</string>
+    <string name="prestamo">prestamo</string>
+    <string name="prestamo1">prestamo</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculando ingreso mensual"
+        android:textSize="8pt"
+        android:layout_gravity="center_vertical" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre Subordinado"
+        android:textSize="6pt"
+        android:layout_gravity="center_vertical" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_nombre"
+        android:inputType=""
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salario Base"
+        android:textSize="6pt"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_salario"
+        android:inputType="numberDecimal"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tipo de vendedor"
+        android:textSize="7pt"/>
+    <Spinner
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/spn_personas"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_continuar"
+        android:text="@string/continuar"
+        android:onClick="continuar"
+        android:textSize="7pt"
+        />
+
+</LinearLayout>
